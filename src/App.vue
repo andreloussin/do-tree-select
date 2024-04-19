@@ -1,17 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" class="hidden" />
+  <HelloWorld msg="Welcome to Your Vue.js App" class="hidden" />
+  <TreeSelect />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import TreeSelect from "./components/TreeSelect/TreeSelect.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    TreeSelect,
+  },
+};
 </script>
 
 <style>
