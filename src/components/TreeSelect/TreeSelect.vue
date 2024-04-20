@@ -43,21 +43,6 @@
           :default-expand-level="defaultExpandLevel"
           v-model:selected-options="selectedOptions"
         />
-        <!-- Replace with your options -->
-        <!-- <a
-          @click="selectOption(option)"
-          v-for="(option, index) in options"
-          :key="index"
-          href="#"
-          class="block px-4 py-2 text-sm text-gray-700"
-          :class="
-            option === selectedOption
-              ? 'bg-green-200 opacity-75'
-              : 'hover:bg-gray-100 hover:text-gray-900'
-          "
-          role="menuitem"
-          >{{ option }}</a
-        > -->
       </div>
     </div>
   </div>
